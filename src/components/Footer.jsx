@@ -1,15 +1,4 @@
-// export default function Footer() {
-//     return (
-//       <footer className="bg-indigo-900 text-white py-8">
-//         <div className="container mx-auto px-4 text-center">
-//           <p className="mb-2">© {new Date().getFullYear()} Bhagavad Gita App</p>
-//           <p className="text-indigo-300">
-//             Discover the eternal wisdom of the Gita
-//           </p>
-//         </div>
-//       </footer>
-//     )
-//   }
+import { Link } from "react-router-dom";
 
 // Footer.jsx
 export default function Footer() {
@@ -22,14 +11,9 @@ export default function Footer() {
             <p className="text-sm">Wisdom for Eternal Peace</p>
           </div>
           
-          <div className="flex space-x-6">
-            <a href="/about" className="hover:text-[#FF9933] transition-colors">
-              About
-            </a>
-            <a href="/contact" className="hover:text-[#FF9933] transition-colors">
-              Contact
-            </a>
-          </div>
+          <Link to={'/about'} className="hover:text-[#FF9933] transition-colors">
+            About
+          </Link>
         </div>
         
         <div className="mt-4 pt-4 border-t border-[#FF9933]/30 text-center text-sm">
