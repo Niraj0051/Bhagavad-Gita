@@ -18,7 +18,7 @@ export default function Footer() {
         
         <div className="mt-4 pt-4 border-t border-[#FF9933]/30 text-center text-sm">
           <p className="text-white">© {new Date().getFullYear()} Bhagavad Gita App. All rights reserved.</p>
-          <p className="mt-1 text-[#FFD700]/80">Made with devotion in Bharat</p>
+          <p className="mt-1 text-[#FFD700]/80">Made with devotion by Niraj</p>
         </div>
       </div>
     </footer>
